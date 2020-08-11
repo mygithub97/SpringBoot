@@ -1,0 +1,21 @@
+spring: 
+    profiles: 
+        active:"test"
+---
+ 
+spring:
+   profiles: test
+ip: 1.2.3.4
+port: 5050
+dbConn: jdbc:mysql://localhost:3306/shopping
+dbUserid: rootYaml
+dbPassword: rootYamlPwd
+---
+ 
+spring:
+    profiles: prod
+ip: 2.3.4.5
+port: 6060
+dbConn: jdbc:mysql://ec-12-22-33-23aws.com:3306/shopping
+dbUserid: root
+dbPassword: awsPassword

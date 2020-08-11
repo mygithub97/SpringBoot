@@ -1,0 +1,28 @@
+@charset "UTF-8";
+#signup{
+    position: absolute;
+    height: 50%;
+    width:50%;
+    left: 200;
+    right: 200;
+    top:200;
+    bottom:200;
+    background-color: cornflowerblue;
+}
+
+td {
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+#button{
+    text-align: center;
+   
+}

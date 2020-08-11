@@ -1,0 +1,103 @@
+@charset "UTF-8";
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#body{
+    height: 80%;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+#header{
+    width: 100%;
+    height: 10%;
+    
+}
+
+#first{
+    width: 20%;
+    height: 100%;
+    background: lightblue;
+    float:left;
+}
+
+#logo{
+	width: 25%;
+	height: 100%;
+	float:left;
+	background: white;
+	text-align: right;
+	
+}
+
+#logo1{
+	height: 100%;
+	width: 30%;
+	float: right;
+	
+}
+
+#quote{
+	height: 100%;
+	width: 70%;
+	float: left;
+	text-align: center;
+	font-style: italic;
+	color: #F0FFFF;
+	
+}
+
+
+#second{
+    width: 25%;
+    height: 100%;
+    background: #0E7AD1;
+    float:left;
+   	background-image: url('lion.png'); 
+   	background-size: cover;
+}
+
+#third{
+    width: 30%;
+    height: 100%;
+    background-color: lightblue;
+    float:left;
+}
+
+#pics{
+    height: 50%;
+    width: 60%;
+    background:blue;
+    margin: 0 auto;
+}
+
+#pics:hover{
+    transform: translate(50px, 100px);
+    -ms-transform: translate(50px, 100px);
+    -webkit-transform: translate(50px, 100px);
+    transform:rotate(-20deg);
+    transition-duration: 10s;
+}
+
+
+#rules{
+    height: 25%;
+    width:  80%;
+    background-color: lightblue;
+    position: absolute;
+    left: 100;
+    bottom: 0;
+    
+}
+
+
+
+
+
+
+
+  

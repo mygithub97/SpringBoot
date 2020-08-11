@@ -1,0 +1,72 @@
+<html lang = "en">
+    <head>
+        <title>Royal Nepal</title>
+        <link href = "royalnepal.css" rel = "stylesheet" type = "text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "test.js"></script>
+        
+    </head>
+    <body>
+
+    
+        <div id = "main">
+            <div id = "header">
+
+                <div id = "first">
+                	
+                </div>
+                
+                <div id = "logo">
+                	<div id = "logo1">
+                		<img src = "logo.png" height = 100% width = 100%>
+                	</div>
+                	
+                	<div id = "quote" style = "background-image: url('ball.png'); background-size: cover;">            		              		       	
+                		<p>You can't score a goal<br>if you don't take a shot</p>               	            
+                	</div>
+                	
+                </div>
+				
+				
+                <div id = "second">  	
+                    <p style = "font-size: xx-large; text-align:center; color:#F0FFFF;">Royal Nepal FC</p>
+                </div>
+				
+				<form action = "/StrutsLogin" method = "GET" >
+                <div id = "third">
+                    <table id = "info">
+                    	
+                        <tr>
+                        	
+                            <td><input type = text id = "uid" name = "uid" placeholder="username"></td>
+                            <td><input type = password id ="pwd" name = "pwd" placeholder="password"></td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td><button type = "submit" name = "signin" onclick = "verifyLoginForm()">Sign In</button></td>
+                            <td><a href = "SignUp.html">Sign up</a></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </form>
+            </div>   
+
+            <div id = "pics">
+                <img src = "royal.jpg" height = 100% width = 100%>
+            </div>
+
+            <div id = "rules">
+                <h1 style = "color: red; text-align: center">Rules</h1>
+                <ul style = "color: red; font-weight: bold">
+                    <li>We have mandatory games on Sunday and Thursday unless we notified you of cancellation.</li>
+                    <li>All the players are required to be on the training ground sharp at 7am.</li>
+                    <li>Every player should inform the academy at least 24 hours before the game if he/she is going to miss it. </li>
+                </ul>
+            </div>
+
+         </div>
+
+    </body>
+</html>
