@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	Welcome <s:property value = "uid"/>
+	Welcome <s:property value = "uid"/> to the wild.
 	<div id = "stadium" >
 	
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/WTJSt4wP2ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
